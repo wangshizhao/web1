@@ -3,7 +3,7 @@
 	overflow:hidden;
 	background: url("images/menu_bg.png") no-repeat left;
 	background-size: 850px 45px;
-	overflow: hidden;
+	overflow: hidden; 
 		}
 .meun li a{
 	display:block;
