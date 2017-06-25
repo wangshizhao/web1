@@ -1,0 +1,335 @@
+body{
+	text-align:center;
+	background:url(../image/hamburg.jpg);
+}
+#wrapper{
+	margin:0px auto;
+	width:1280px;
+	text-align:left;
+}
+#header-top{
+	float:left;
+}
+#logo-left{
+	border:0px solid #FFF;
+	color:#4D4DFF;
+	font-weight:700;
+	font-size:50px;
+	font-family:幼圆;
+	padding-left:100px;
+	float:left;
+}
+#logo-among{
+	border:1px soid #FFF;
+	border-radius:6px;
+	background:#9F0000;
+	width:55px;
+	height:25px;
+	margin-left:340px;
+	margin-top:-35px;
+	font-family:楷体;
+	font-size:17px;
+	text-align:center;
+	padding-top:5px;
+	color:#FFF;
+	font-weight:1500;
+}
+#logo-right{
+	width:55px;
+	height:25px;
+	font-family:楷体;
+	font-size:17px;
+	text-align:center;
+	margin-left:395px;
+	margin-top:-23px;
+	color:#333;
+	font-weight:1500;
+}
+#header-top-right{
+	width:50px;
+	height:18px;
+	border:0px solid #FFF;
+	background-color:#FF9B37;
+	float:right;
+	margin-top:65px;
+	margin-right:48px;
+	font-size:17px;
+	font-family:楷体;
+	text-align:center;
+	padding-top:3px;
+}
+#header-among ul{
+	list-style-type:none;
+	margin:50px;
+}
+#header-top-among{
+	border:0px solid #FFF;
+	float:left;
+	margin-top:65px;
+	margin-left:453px;
+}
+#header-top-right a:link{
+	text-decoration:none;
+	color:#FFF;
+}
+#header-among ul li{
+	background:url(../image/b_36860_EPS_20091222231658.jpg);
+	height:30px;
+	width:59px;
+	float:left;
+	color:#FFF;
+	font-family:楷体;
+	line-height:30px;
+	text-align:center;
+}
+#header-among a:link{
+	text-decoration:none;
+	color:#FFF;
+}
+#header-among ul li a:visited{
+	color:white;
+	text-decoration:none;
+}
+#header-among ul li a:hover{
+	text-decoration:underline;
+	color:#FFF;
+}
+#header-bottom-left{
+	margin-left:89.5px;
+}
+#header-bottom-left img{
+	width:1122px;
+	height:170px;
+}
+#content-top{
+    text-align:left;
+	margin:4px 0px 0px 117px;
+	padding:10px 0px 0px 30px;
+	font-family:楷体;
+	font-size:18px;
+	font-weight:bold;
+	background-color:#E8E8E8;
+	width:1093px;
+}
+#content-top span{
+	color:#B70000;
+}
+#content-among{
+	border:1px solid #CCC;
+	width:1120px;
+	height:315px;
+	margin-left:117px;
+}
+#left{
+	float:left;
+	text-align:left;
+}
+#left-top{
+	width:350px;
+}
+#left-top h1 a:link{
+	text-decoration:none;
+	font-size:17px;
+	color:#004080;
+}
+#left-top h1 a:hover{
+	text-decoration:underline;
+	color:#C09;
+}
+#left-top a:link{
+	text-decoration:none;
+	font-size:14px;
+	color:#004080;
+}
+#left-top a:hover{
+	text-decoration:underline;
+	color:#C09;
+}
+#left-top img{
+	background-color:#CCC;
+	margin:10px 10px 20px 20px;
+	padding:10px;
+	float:left;
+}
+#left-right{
+	margin-top:-10px;
+}
+#left-bottom{
+	margin:20px;
+	padding:10px;
+}
+#left-bottom img{
+	background-color:#CCC;
+	margin:25px 10px 20px -9px;
+	padding:10px;
+	float:left;
+}
+#left-bottom{
+	width:320px;
+}
+#left-bottom h1 a:link{
+	text-decoration:none;
+	font-size:17px;
+	color:#004080;
+}
+#left-bottom h1 a:hover{
+	text-decoration:underline;
+	color:#C09;
+}
+#left-bottom a:link{
+	text-decoration:none;
+	font-size:14px;
+	color:#004080;
+}
+#left-bottom a:hover{
+	text-decoration:underline;
+	color:#C09;
+}
+#among{
+	float:left;
+}
+#right{
+	text-align:left;
+}
+#right ul{
+	margin-top:19px;
+	list-style-type:none;
+}
+#right li{
+	line-height:25px;
+}
+#right a:link{
+	text-decoration:none;
+	font-size:16px;
+	color:#004080;
+}
+#right a:hover{
+	text-decoration:underline;
+	color:#C09;
+}
+#content-bottom{
+	background:#FFF;
+	text-align:left;
+	line-height:30px;
+}
+.zuobian{
+	width:550px;
+	margin-left:117px;
+	float:left;
+	margin-top:2px;
+	text-align:left;
+}
+.biaoti{
+	background:#D8D8D8;
+	width:550px;
+	height:30px;
+	line-height:35px;
+}
+.biaoti span{
+	margin-left:20px;
+	font-size:17px;
+	font-family:楷体;
+	font-weight:bold;
+}
+#content-bottom a:link{
+	text-decoration:none;
+	font-size:17px;
+	color:#000;
+}
+#content-bottom a:hover{
+	text-decoration:underline;
+	color:#C09;
+}
+#content-bottom ul a:link{
+	text-decoration:none;
+	font-size:17px;
+	color:#004080;
+}
+#content-bottom ul a:hover{
+	text-decoration:underline;
+	color:#C09;
+}
+.neirong{
+	margin-left:-20px;
+}
+.gengduo{
+	font-size:17px;
+	font-family:楷体;
+	font-weight:bold;
+	float:right;
+}
+.neirong-left{
+	float:left;
+}
+.neirong-right{
+	float:right;
+	margin-right:-30px;
+	line-height:15px;
+	margin-top:-0.5px;
+	color:#004080;
+}
+.neirong-right li{
+	font-weight:normal;
+	color:#004080;
+	text-align:left;
+}
+.zuobian{
+	border:1px solid #CCC;
+	width:550px;
+	height:360px;
+	margin-left:117px;
+}
+.youbian{
+	float:right;
+	border:1px solid #CCC;
+	width:550px;
+	height:360px;
+	margin-right:93px;
+	margin-top:2px;
+	text-align:left;
+}
+.biaoti{
+	text-align:left;
+}
+.biaoti a:link{
+	text-decoration:none;
+	font-size:17px;
+	color:#000;
+}
+.biaoti a:hover{
+	text-decoration:underline;
+	color:#C09;
+}
+.neirong-left li a:link{
+	text-decoration:none;
+	font-size:17px;
+	color:#004080;
+}
+.neirong-left li a:hover{
+	text-decoration:underline;
+	color:#C09;
+}
+.neirong-left li{
+	line-height:30px;
+}
+#footer{
+	background:#E7E7E7;
+	width:1125px;
+	height:60px;
+	clear:both;
+	margin-top:700px;
+	text-align:center;
+	padding-top:10px;
+	font-size:14px;
+	color:#666;
+	font-family:楷体;
+	margin-left:117px;
+}
+#footer a:link{
+	text-decoration:none;
+	color:#666;
+}
+#footer a:hover{
+	text-decoration:underline;
+	color:#C09;
+}
