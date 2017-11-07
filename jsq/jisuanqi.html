@@ -1,0 +1,71 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta charset="utf-8"> 
+<title></title>  
+<style>    
+.annu input
+ {  
+   width:60px;  
+   height:60px;  
+   font-size:30px;  
+} 
+#txt{
+   width:200px;  
+   height:60px; 
+   font-size:35px;
+} 
+</style>  
+</head>  
+<body>    
+    <table id="annu" width="240" height="300" border="1" align="center" cellpadding="4" cellspacing="0">
+      <tr>  
+        <td colspan="3"><input id="txt" type="text"> </td>
+        <td class="annu"><input type="button" value="c"></td>  
+      </tr>    
+      <tr class="annu">  
+        <td><input type="button" value="1"></td>  
+        <td><input type="button" value="2"></td>  
+        <td><input type="button" value="3"></td>  
+        <td><input type="button" value="+"></td>  
+      </tr>    
+      <tr class="annu">  
+        <td><input type="button" value="4"></td>  
+        <td><input type="button" value="5"></td>  
+        <td><input type="button" value="6"></td>  
+        <td><input type="button" value="-"></td>  
+      </tr>  
+      <tr class="annu"> 
+        <td><input type="button" value="7"></td>  
+        <td><input type="button" value="8"></td>  
+        <td><input type="button" value="9"></td>  
+        <td><input type="button" value="*"></td>  
+      </tr>  
+      <tr class="annu">  
+        <td><input type="button" value="0"></td>  
+        <td><input type="button" value="."></td>  
+        <td><input type="button" value="="></td>  
+        <td><input type="button" value="/"></td>  
+      </tr>   
+   </table>  
+  <script>  
+    window.onload=function(){  
+     var aaa=document.getElementById("annu").getElementsByTagName("input");  
+      for (var i=0;i<aaa.length;i++){  
+       aaa[i].onclick=function (obj){  
+          var bbb=this.value;  
+          if(this.value!="="&&this.value!="c"){  
+            var ccc=document.getElementById("txt").value+=this.value;     
+          }  
+          else if(this.value=="="){  
+            document.getElementById("txt").value+="="+eval(document.getElementById("txt").value);  
+          }  
+          else if(this.value=="c"){  
+            document.getElementById("txt").value="";  
+          }  
+        }  
+      }  
+    }  
+  </script>  
+</body>  
+</html>  
