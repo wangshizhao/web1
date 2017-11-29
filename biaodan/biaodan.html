@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<table>
+	<tr>
+		<td>用户名：</td>
+		<td><input type="text" name="name"></td>
+	</tr>
+	<tr>
+		<td>密码：</td>
+		<td><input type="password" name="mima"></td>
+	</tr>
+	<tr>
+		<td>确认密码：</td>
+		<td><input type="password" name="mima"></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><input id="submit" type="submit" value="注册" />		
+		<input type="reset" id="reset" value="取消" /></td>		
+	</tr>
+</table>
+</body>
+	<script type="text/javascript">
+	window.onload=function(){
+		var a=document.getElementsByTagName('input')[0];
+		var x=document.getElementsByTagName('input')[1];
+		a.focus();
+		a.onblur=function(){
+			if(a.value.length==0)
+			{
+				var spans=document.getElementsByTagName("span");
+				if(spans.length>0)
+				{
+					spans[0].parentNode.removeChild(spans[0]);
+				}
+				var b=document.createElement("span");
+				b.innerHTML="用户名不能为空";
+				b.style.color="red";
+				var c=document.getElementsByTagName("td")[1];
+				c.appendChild(b);
+			}
+			else
+			{
+				var spans=document.getElementsByTagName("span");
+				if(spans.length>0)
+				{
+					spans[0].parentNode.removeChild(spans[0]);
+				}
+				var b=document.createElement("span");
+				b.innerHTML="用户名可用";
+				b.style.color="red";
+				var c=document.getElementsByTagName("td")[1];
+				c.appendChild(b);
+			}
+		}
+		x.onblur=function(){
+			if(x.value.length==0)
+			{
+				var spans=document.getElementsByTagName("span");
+				if(spans.length>1)
+				{
+					spans[1].parentNode.removeChild(spans[1]);
+				}
+				var b=document.createElement("span");
+				b.innerHTML="密码不能为空";
+				b.style.color="red";
+				var c=document.getElementsByTagName("td")[3];
+				c.appendChild(b);
+			}
+			else
+			{
+				var spans=document.getElementsByTagName("span");
+				spans[1].parentNode.removeChild(spans[1]);
+			}
+		}
+		var y=document.getElementsByTagName("input")[2];
+		y.onblur=function(){
+			if(y.value!=x.value)
+			{
+				var spans=document.getElementsByTagName("span");
+				var b=document.createElement("span");
+
+				if(spans.length>1)
+				{
+					spans[2].parentNode.removeChild(spans[2]);
+				}
+				b.innerHTML="两次密码输入不同";
+				b.style.color="red";
+				var c=document.getElementsByTagName("td")[5];
+				c.appendChild(b);
+			}
+			else
+			{
+				var spans=document.getElementsByTagName("span");
+				spans[1].parentNode.removeChild(spans[1]);
+			}
+		}
+	}
+	</script>
+</html>
