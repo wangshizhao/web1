@@ -1,0 +1,9 @@
+*{
+	padding:0px;
+}
+ul, ol{list-style: none;}
+.banner{
+	width: 1100px;
+	height: 400px;
+	margin:0px auto;
+}
